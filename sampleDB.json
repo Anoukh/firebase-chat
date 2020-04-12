@@ -1,0 +1,87 @@
+{
+	"web-chat-101" : {
+		"doctors" : {
+			"user-id-1" : true
+		},
+
+		"patients" : {
+			"user-id-2" : {
+				"" : true
+			},
+			"user-id-3" : {
+				"" : true
+			}
+		},
+
+		"users" : {
+			"user-id-1" : {
+				"name" : "Anoukh",
+				"role" : "DOCTOR"
+			},
+			"user-id-2" : {
+				"name" : "Hansika",
+				"role" : "PATIENT"
+			} ,
+			"user-id-3" : {
+				"name" : "Nisanka",
+				"role" : "DOCTOR"
+			}
+		},
+
+		"chats" : {
+			"user-id-1-user-id-2": {
+				"message-id-1" : {
+					"sender-id" : "user-id-1",
+					"receiver-id" : "user-id-2",
+					"message" : "Hello",
+					"timestamp" : 11111
+				},
+				"message-id-2" : {
+					"sender-id" : "user-id-2",
+					"receiver-id" : "user-id-1",
+					"message" : "Hello",
+					"timestamp" : 11112
+				},
+				"message-id-3" : {
+					"sender-id" : "user-id-1",
+					"receiver-id" : "user-id-2",
+					"message" : "Hello",
+					"timestamp" : 11113
+				},
+				"message-id-4" : {
+					"sender-id" : "user-id-2",
+					"receiver-id" : "user-id-1",
+					"message" : "Hello",
+					"timestamp" : 11114
+				}
+			},
+
+			"user-id-1-user-id-3": {
+				"message-id-1" : {
+					"sender-id" : "user-id-1",
+					"receiver-id" : "user-id-2",
+					"message" : "Hello",
+					"timestamp" : 11111
+				},
+				"message-id-2" : {
+					"sender-id" : "user-id-2",
+					"receiver-id" : "user-id-1",
+					"message" : "Hello",
+					"timestamp" : 11112
+				},
+				"message-id-3" : {
+					"sender-id" : "user-id-2",
+					"receiver-id" : "user-id-1",
+					"message" : "Hello",
+					"timestamp" : 11113
+				},
+				"message-id-4" : {
+					"sender-id" : "user-id-1",
+					"receiver-id" : "user-id-2",
+					"message" : "Hello",
+					"timestamp" : 11114
+				}
+			}
+		}
+	}
+}	
